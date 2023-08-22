@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navss {
+   background-color: rgb(157, 178, 191);
+   padding: 10px;
+   margin: 0;
+}
+.navss a{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.home {
+  height: 100vh;
+  background-image: url(./components/images/img-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.career {
+  height: 100vh;
+  background-image: url(./components/images/img-4.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about {
+  height: 100vh;
+  background-image: url(./components/images/img-2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact {
+  height: 100vh;
+  background-image: url(./components/images/img-3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  height: 30vh;
+  background-color: rgb(63, 29, 56);
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
